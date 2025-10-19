@@ -1,0 +1,70 @@
+/*---------ヘッダーとフッターはcommon.css--------*/
+/*=====メイン====*/
+main {
+    margin: 0px 0px;
+     font-family: "Arial", "Helvetica", sans-serif;
+}
+.title {
+    font-size: 2rem;
+    color: crimson;
+    text-align: center;
+}
+.year {
+    padding: 2% 19%;
+}
+.year-title {
+    font-size: 1.2rem;
+}
+.news-date {
+    font-size: 0.9rem;
+}
+.news-title {
+    font-size: 1.0rem;
+    margin-left: 30px;
+}
+.link-history {
+    margin-left: 30px;
+    font-size: 1rem;
+    color: #00aa7d;
+    text-align: none;
+}
+
+@media (max-width: 600px) {
+    .news-photo {
+        float: none;
+        max-width: 100%;
+        margin: 0 0 12px 0;
+        display: block;
+    }
+}
+.link-history {
+    align-items: center;
+    font-size: 1rem;
+    color: #00aa7d;
+    text-decoration: none;
+}
+/*パンくずリスト*/
+.breadcrumb {
+    font-size: 0.9rem;
+    margin-bottom: 16px;
+    margin: 0 80px;
+}
+.breadcrumb ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.breadcrumb li {
+    color: #555;
+}
+.breadcrumb li+li::before {
+    content: ">";
+    padding: 0 8px;
+    color: #aaa;
+}
+.breadcrumb a {
+    text-decoration: none;
+    color: #00aa7d;
+}
