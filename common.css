@@ -1,6 +1,6 @@
 /*=======ヘッダー=======*/
 header {
-    background-color: white;
+    background-color: rgb(200, 61, 88);
     border-bottom: none;
     padding: 0;
     margin: 0;
@@ -22,7 +22,7 @@ header {
  .header-top h1 {
     font-size: 2rem;
     font-weight: bold;
-    color: crimson;
+    color: white;
  }
  /*下段メニュー*/
  .header-bottom {
@@ -108,4 +108,9 @@ footer {
     text-align: right;
     padding: 10px;
     margin: 20px;
+}
+.icon-row {
+  display: flex;          /* 横並びにする */
+  gap: 20px;              /* アイコンの間隔 */
+  justify-content: center;/* 中央寄せ */
 }

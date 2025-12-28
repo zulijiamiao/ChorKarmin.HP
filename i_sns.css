@@ -9,9 +9,37 @@ main {
     font-size: 2rem;
     color: crimson;
 }
-.content {
-    font-size: 1rem;
+.year {
+    padding: 2% 25%;
 }
+.year-title {
+    font-size: 1.2rem;
+}
+.news-date {
+    font-size: 0.9rem;
+}
+.news-title {
+    font-size: 1.0rem;
+    margin-left: 30px;
+}
+.link-history {
+    margin-left: 30px;
+    font-size: 1rem;
+    color: #00aa7d;
+    text-align: none;
+}
+.twitter-tweet{
+    margin: 0 auto;   /* 左右の余白を自動にして中央寄せ */
+}
+  .insta-center {
+    display: flex;              /* フレックスボックスにする */
+    justify-content: center;    /* 横方向の中央寄せ */
+  }
+  .insta-center blockquote {
+    margin: 0;                  /* 余白リセット */
+    max-width: 540px;           /* Instagram推奨幅 */
+    width: 100%;                /* 横幅を親に合わせる */
+  }
 @media (max-width: 600px) {
     .news-photo {
         float: none;

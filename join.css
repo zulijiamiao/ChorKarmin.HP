@@ -1,27 +1,18 @@
 /*---------ヘッダーとフッターはcommon.css--------*/
 /*=====メイン====*/
 main {
-    margin: 20px 100px;
-     font-family: "Arial", "Helvetica", sans-serif;
+    margin: 20px 200px 20px 200px;
+    font-family: "Arial", "Helvetica", sans-serif;
+    text-align: center;
 }
 .title {
     font-size: 2rem;
     color: crimson;
-    text-align: center;
 }
-.year {
-    padding: 2% 25%;
+.text {
+    font-size: 1rem;
 }
-.year-title {
-    font-size: 1.2rem;
-}
-.news-date {
-    font-size: 0.9rem;
-}
-.news-title {
-    font-size: 1.0rem;
-    margin-left: 30px;
-}
+
 .link-history {
     margin-left: 30px;
     font-size: 1rem;
