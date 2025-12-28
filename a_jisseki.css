@@ -17,6 +17,13 @@ main {
 }
 .news-date {
     font-size: 0.9rem;
+    display: flex; 
+    gap: 10px; /* 日付とタイトルの間の余白 */ 
+    padding: 12px 0;
+}
+.news-texts { 
+    display: flex; 
+    flex-direction: column; /* タイトル2つを縦に並べる */ 
 }
 .news-title {
     font-size: 1.0rem;
