@@ -8,12 +8,15 @@ main {
 .title {
     font-size: 2rem;
     color: crimson;
+    text-align: center;
+
 }
 .text {
     font-size: 1rem;
 }
 .content {
-    max-width: 80%;
+    max-width: 100%;
+    text-align: center;
 }
 
 .link-history {
