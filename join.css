@@ -12,6 +12,9 @@ main {
 .text {
     font-size: 1rem;
 }
+.content {
+    max-width: 80%;
+}
 
 .link-history {
     margin-left: 30px;
